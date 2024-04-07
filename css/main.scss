@@ -1,0 +1,52 @@
+$containerwidth: 940px;
+$baseFontSize: 18px;  
+
+//breakpoints
+
+$desktop: 940px;
+$tablets: 768px;
+$phones: 480px;
+
+
+//colors
+$grey: #F5F5F5;
+
+
+//z-indexes
+$z-fixed-menu: 100;
+
+@import "media.scss";
+
+// setups
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:ital,wght@0,400;0,700;0,800;1,400&family=Alegreya+Sans:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,700;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&family=Play:wght@400;700&display=swap');
+@import "layout";
+
+//components
+@import "components/hero.scss";
+@import "components/header.scss";
+@import "components/features.scss";
+@import "components/feature.scss";
+@import "components/button.scss";
+@import "components/section.scss";
+@import "components/headline.scss";
+@import "components/benefits.scss";
+@import "components/benefit.scss";
+@import "components/benefits-section.scss";
+@import "components/reviews.scss";
+@import "components/interactive-avatar.scss";
+@import "components/order-section.scss";
+@import "components/form.scss";
+@import "components/radio.scss";
+@import "components/fixed-menu.scss";
+@import "components/footer.scss";
+@import "components/review-section.scss";
+@import "components/products.scss";
+@import "components/map.scss";
+@import "components/hamburger.scss";
+@import "components/menu.scss";
+@import "components/team.scss";
+@import "components/overlay-menu.scss";
+@import "components/productsmenu.scss";
+@import "components/popupform.scss";
+@import "components/video.scss";

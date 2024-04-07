@@ -1,0 +1,28 @@
+.section {
+  height: 100vh;
+  min-height: rem(650px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+
+  &--font--color--white {
+    color: #fff;
+  }
+
+}
+
+.section__title {
+  font-family: Play;
+  font-size: rem(48px);
+  font-weight: bold;
+  margin-bottom: rem(60px);
+  text-align: center;
+  text-transform: uppercase;
+  color: #000;
+
+  @include phones {
+    font-size: 32px;
+    margin-bottom: rem(20px);
+  }
+}

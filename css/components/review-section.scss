@@ -1,0 +1,11 @@
+.reviews-section {
+  position: relative;
+  
+
+  &::before {
+    content: url(../img/ellipsegrey.png);
+    position: absolute;
+    bottom: rem(-22px);
+    left: 5%;
+  }
+}

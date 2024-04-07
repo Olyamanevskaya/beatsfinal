@@ -1,0 +1,97 @@
+.products-menu-section {
+  background: url(../../img/beatsbackground.jpg) center center/cover no-repeat;
+  position: relative;
+  background-color: $grey;
+}
+
+.products-menu {
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  display: flex;
+}
+
+.products-menu__item {
+  display: flex;
+}
+
+.products-menu__item--grey {
+  background-color: #999999;
+}
+
+.products-menu__item--black {
+  background-color: #151515;
+}
+
+.products-menu__item--red {
+  background-color: #E01F3C;
+}
+
+.products-menu__title {
+  position: relative;
+  width: 100px;
+  text-decoration: none;
+}
+
+.products-menu__content {
+  background: #333537;
+  width: 0;
+  position: relative;
+  overflow: hidden;
+  transition: .7s;
+}
+
+.products-menu__container {
+  padding: 40px 73px 45px 26px;
+  border-color: #333537;
+}
+
+.products-menu-section__title{
+  color: white;
+  text-align: left;
+  display: flex;
+  padding-bottom:35%;
+  padding-left: 5%;
+}
+
+.products-menu__close {
+  position: absolute;
+  top: 20px;
+  right: 25px;
+  border: none;
+  background: transparent;
+}
+
+.products-menu__content {
+  border-color: #333537;
+  width: 0;
+  position: relative;
+  overflow: hidden;
+  transition: 0.7s;
+  color: #FFFFFF;
+}
+
+.products-menu__text {
+  color: #FFFFFF;
+  transform: rotate(-90deg);
+  position: inherit;
+  font-size: 50px;
+  font-family: Alegreya Sans;
+  font-weight: bold;
+  white-space: nowrap;
+  text-align: center;
+  vertical-align: bottom;
+  margin-top: 1000px;
+  text-align: justify;
+  
+}
+
+.products-menu__close{
+  position: absolute;
+  top: 20px;
+  right: 25px;
+  border: none;
+  background: transparent;
+}
+

@@ -1,0 +1,82 @@
+html {
+  font-size: $baseFontSize;
+
+  @include tablets {
+    font-size: $baseFontSize - 1px;
+  }
+
+  @include phones {
+    font-size: $baseFontSize - 2px;
+  }
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  font-family: "Alegreya Sans", sans-serif;
+  line-height: 1.42;
+  position: relative;
+  color: #666666;
+  margin: 0;
+}
+
+.wrapper {
+  position: relative;
+  width: 100%;
+  min-height: 100%;
+  overflow: hidden;
+}
+
+.maincontent {
+  transition: 1s;
+}
+
+.container {
+  width: 95%;
+  max-width: $containerwidth;
+  margin: 0 auto;
+  position: relative;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  font-weight: normal;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+   
+  li {
+    list-style: none;
+  }
+}
+
+p {
+  padding: 0;
+  margin: 0;
+}
+
+.footer {
+  position: relative;
+  width: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  color: inherit;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}

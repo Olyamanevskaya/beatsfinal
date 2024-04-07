@@ -1,0 +1,33 @@
+.headline {
+  text-align: center;
+
+}
+
+.headline__title {
+  font-family: Play;
+  font-weight: bold;
+  font-size: rem(48px);
+  margin-bottom: rem(25px);
+
+  @include tablets {
+    font-size: rem(48px);
+    margin-bottom: 5px;
+  }
+
+  @include phones {
+    font-size: rem(32px);
+  }
+  
+}
+
+.headline__subtitle {
+  font-family: Play;
+  font-weight: 400;
+  font-size: rem(16px);
+  padding: 0 26%;
+  align-items: center;
+
+  @include phones {
+    padding: 0 5%;
+  }
+}

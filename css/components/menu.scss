@@ -1,0 +1,33 @@
+.menu {
+  margin: 0 30px;
+
+
+
+  @include tablets {
+    display: none;
+  }
+}
+
+.menu__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  font-family: Alegreya Sans;
+  font-size: rem(18px);
+  font-weight: 400;
+  letter-spacing: 0;
+}
+
+.menu__item {
+  margin-right: rem(27px);
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.menu__link {
+  text-decoration: none;
+  white-space: nowrap;
+}

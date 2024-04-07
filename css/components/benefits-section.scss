@@ -1,0 +1,10 @@
+.benefits-section {
+  position: relative;
+
+  &::before {
+    content: url(../img/vector2.png);
+    position: absolute;
+    bottom: rem(-80px);
+    left: 5%;
+  }
+}

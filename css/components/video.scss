@@ -1,0 +1,96 @@
+.video-section {
+  display: flex;
+  justify-content: center;
+  background: url(../img/videoposter.png) center center no-repeat;
+}
+
+.video {
+  max-width: 100%;
+  max-height: 100%;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  overflow: clip;
+}
+
+.video__player{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  @include tablets {
+    width: 594px;
+  }
+
+  @include phones {
+    width: 394px;
+  }
+
+}
+
+.videoplayer {
+  min-width: 50%;
+}
+
+.play {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+  visibility: visible;
+}
+
+.video__toolbar {
+  height: 35px;
+  width: 100%;
+  display: flex;
+  background: #3e3e3e;
+  align-items: center;
+  text-align: center;
+  position: relative;
+}
+
+.duration {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  
+}
+
+
+.duration__icon {
+  cursor: pointer;
+  width: 10px;
+}
+
+.duration__length::-webkit-slider-thumb {
+  width: 100%;
+  height: 4px;
+  border-radius: 1px;
+  background: #626262;
+  appearance: none;
+  outline: none;
+  accent-color: #151515;
+}
+
+.duration__length--other {
+  width: 58px;
+  height: 4px;
+}
+
+
+.range {
+  cursor: default;
+  color: lightslategray;
+  padding: initial;
+  border: initial;
+  margin: 2px;
+  
+}
+
+.sound {
+  display: flex;
+  align-items: center;
+  margin: 0 15px;
+}
